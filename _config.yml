@@ -32,5 +32,3 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
-
-theme: jekyll-theme-cayman
