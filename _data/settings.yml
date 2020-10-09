@@ -1,20 +1,20 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Beyonsei
 logo: 
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+email: info@yonsei.ac.kr
+phone: +82-2-2123-5000
+address: 50, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
+copyright: Copyright &copy; 2020 Yonsei University 
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+- {name: About, link: '/about'}                   # About
+- {name: Robot, link: '/blog'}                    # Blog 
+- {name: Project, link: '/portfolio'}             # Portfolio
+- {name: Contact, link: '/contact'}               #
 
 
 #-------------------------------
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Mobile Modulus Market(3M)
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+   본 프로젝트는 연세대학교 기계공학부 창의제품설계(종합설계) 과목의 일환으로 시작된 것으로 자율주행과 공유경제 두 가지 키워드를 중심으로 모듈화된 로봇 플랫폼을 이용하여 상품을 판매하고 홍보하는 목적을 가지고 시작되었습니다.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -62,32 +62,41 @@ blurb-btn-name: know more
 
 # Work Process Section
 work-process:
-  - title : "Research and Plan"
+  - title : "Brainstorming"
     icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "150여개의 아이디어를 브레인스토밍하여 최종적으로 ...."
     
-  - title : "Design and Develop"
+  - title : "Design and Conceptualizae"
     icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "문제의식을 바탕으로 ....."
     
-  - title : "Deliver"
+  - title : "Realize"
     icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "ROS를 활용하여... SLAM과 자율주행 기술을 구현....."
 
 
 # My Team Section
 team:
-  - title : "Jack Schenziwe"
+  - title : "이택민"
     image : "assets/images/team/member-1.png"
     designation : "Project Manager"
     
-  - title : "Julias Carlie"
+  - title : "강신욱"
     image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+    designation : "Graphic Designer"
     
-  - title : "John Doe"
+  - title : "김묘찬"
     image : "assets/images/team/member-3.png"
-    designation : "Designer"
+    designation : "3D Designer"
+
+  - title : "김윤태"
+    image : "assets/images/team/member-3.png"
+    designation : "응력 해석"
+  
+  - title : "김유빈"
+    image : "assets/images/team/member-3.png"
+    designation : "Robotics Engineer"
+
 
 
 #-------------------------------
@@ -95,10 +104,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: 3D Modeling, color: '#fdb157', value: '60%'}
+- {name: Robot Control, color: '#9473e6', value: '80%'}
+- {name: Graphic Design, color: '#bdecf6', value: '70%'}
+- {name: Web App, color: '#ffbcaa', value: '50%'}
 
 
 #-------------------------------
@@ -116,10 +125,7 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Department of Mechanical Engineering, date: '2020', organization: 'Yonsei University'}
 
 
 #-------------------------------
@@ -172,15 +178,15 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
+    title : "Web Devel",
     type : "design"
   }
 - {
-    title : "BRANDING",
+    title : "Robotics",
     type : "branding"
   }
 - {
-    title : "ILLUSTRATION",
+    title : "Design",
     type : "illustration"
   }
 
@@ -239,20 +245,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Byeong Kwon, Min"
+    image: "assets/images/testimonial/B.K.M.png"
+    designation : "Professor"
+    content : "아주 훌륭합니다 여러분. 여러분의 노고에 찬사를.....!"
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Dae Eun, Kim"
+    image: "assets/images/testimonial/D.E.K.png"
+    designation: "Professor"
+    content: "이 프로젝트는 A+입니다."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Hyung seok, Lee"
+    image: "assets/images/testimonial/H.S.L.png"
+    designation: "Professor"
+    content: "<strong> ! 최고의 프로젝트입니다 ! </strong>"
 
 
 #-------------------------------
@@ -293,4 +299,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: ybkim95@yonsei.ac.kr

@@ -1,18 +1,25 @@
 ---
 layout: about
-title: About Me
-author: Johnathan Smith
+title: About us
+author: Sung-Won Lee
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+사실 이런 상이 있는 줄도 몰랐고, 더군다나 제가 최우등상을 받게 될 줄은 몰랐어요.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+평생 받아보지 못했던 성적이기 때문에 상위 1%라는 말이 제게는 굉장히 무겁게 다가오네요.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+동기들 중에는 저보다 훨씬 더 대단한 학생들이 많은데, 
+
+단순히 성적을 잘 받았다는 이유로 이런 상을 받는다는 것이 좀 부끄러운 생각도 드네요.
+
+딱히 시간으로 얼마만큼이라고 말씀드리기는 좀 그렇고.......
+
+시험기간에는 많은 다른 학생들처럼 수업이 끝나면 밤늦게까지 열람실에서 공부를 했어요.
+
+평상시에는 시간을 정해놓기보다, 수업을 듣거나 동기들과 논느 시간을 제외한 나머지 시간에 틈틈이 학과공부와 과제를 했어요.
+
+평균 두세 시간 정도는 꼭 투자했던 것 같아요.
+
+하지만, 공부의 양이 많은 고학번 선배님들과는 비교도 하지 못할 만큼 저는 적은 시간을 투자했다고 생각해요.
