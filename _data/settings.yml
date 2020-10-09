@@ -11,10 +11,10 @@ address: 50, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
 copyright: Copyright &copy; 2020 Yonsei University 
 
 menu:
-- {name: About, link: '/about'}                   # About
-- {name: Robot, link: '/blog'}                    # Blog 
-- {name: Project, link: '/portfolio'}             # Portfolio
-- {name: Contact, link: '/contact'}               #
+- {name: About, link: '/meu4300-01/about'}                   # About
+- {name: Robot, link: '/meu4300-01/blog'}                    # Blog 
+- {name: Project, link: '/meu4300-01/portfolio'}             # Portfolio
+- {name: Contact, link: '/meu4300-01/contact'}               # Contact
 
 
 #-------------------------------
