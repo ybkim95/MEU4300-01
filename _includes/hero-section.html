@@ -1,14 +1,14 @@
 <!-- hero area -->
-<section class="hero-area bg-primary" id="parallax">
+<section class="hero-area bg-robo" id="parallax"> <!-- 메인 페이지의 배경 색상 바꾸는 곳 -->>
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
+        <h1 class="text-dark font-tertiary">{{ site.data.settings.hero.hero-title }}</h1> <!-- 메인 페이지 제목 바꾸는 곳 ex. 3M ... -->>
       </div>
     </div>
   </div>
-  <div class="layer-bg w-100">
-    <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/images/illustrations/leaf-bg.png" alt="bg-shape">
+  <div class="layer-bg w-100"> <!-- 여기서 메인 홈의 이미지 사진 크기를 변경 -->>
+    <img class="img-fluid w-50" src="{{ site.baseurl }}/assets/images/illustrations/robo_mart14.jpg" alt="bg-shape">
   </div>
   <div class="layer" id="l2">
     <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="bg-shape">
@@ -37,7 +37,7 @@
   <!-- social icon -->
   <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
     {% for social in site.data.settings.social %}
-    <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
+    <li class="mb-3"><a class="text-dark" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
     {% endfor %}
   </ul>
   <!-- /social icon -->

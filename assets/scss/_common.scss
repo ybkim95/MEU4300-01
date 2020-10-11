@@ -110,8 +110,14 @@ a:hover {
   background: $primary-color !important;
 }
 
+
+
 .bg-gray{
   background: $gray !important;
+}
+
+.bg-robo{
+  background: $robo !important;
 }
 
 .text-primary {
@@ -128,6 +134,9 @@ a:hover {
 
 .text-light {
   color: $text-color-light !important;
+}
+.text-purple {
+  color: $text-color-purple !important;
 }
 
 .mb-10 {
