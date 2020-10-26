@@ -63,16 +63,16 @@ blurb-btn-name: know more
 # Work Process Section
 work-process:
   - title : "Brainstorming"
-    icon : "assets/images/icons/plan.png"
-    content : "150여개의 아이디어를 브레인스토밍하여 최종적으로 ...."
+    icon : "assets/images/icons/brainstorming.png"
+    content : "150여개의 아이디어를 브레인스토밍하여 최종적으로 하나의 아이디어를 선정하였습니다."
     
   - title : "Design and Conceptualizae"
-    icon : "assets/images/icons/design.png"
-    content : "문제의식을 바탕으로 ....."
+    icon : "assets/images/icons/design.jpg"
+    content : "문제의식을 바탕으로 실질적으로 필요한 제품을 설계하고 이와 관련된 UX/UI 디자인을 했습니다."
     
-  - title : "Realize"
-    icon : "assets/images/icons/print.png"
-    content : "ROS를 활용하여... SLAM과 자율주행 기술을 구현....."
+  - title : "Implement"
+    icon : "assets/images/icons/implement.jpg"
+    content : "ROS를 활용하여 SLAM과 자율주행 기술을 구현하여 로봇의 구동과 제어를 실시하고 있습니다."
 
 
 # My Team Section
@@ -87,15 +87,15 @@ team:
     
   - title : "김묘찬"
     image : "assets/images/team/mck.jpg"
-    designation : "3D Designer"
+    designation : "3D Modeler"
 
   - title : "김윤태"
     image : "assets/images/team/ytk.jpg"
-    designation : "응력 해석"
+    designation : "Stress Analysis"
   
   - title : "김유빈"
     image : "assets/images/team/ybk.jpg"
-    designation : "Robotics Engineer"
+    designation : "Robotics Engineer / Web Developer"
   
   - title : "이성원"
     image : "assets/images/team/swl.jpg"
@@ -175,6 +175,11 @@ portfolio-home-items:
   - image : "assets/images/portfolio/lidar_scan.png"
     url: "#"
 
+  - image : "assets/images/portfolio/robot_base.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/animation.png"
+    url: "#"
 
 # Portfolio Page
 portfolio-label:
@@ -211,67 +216,78 @@ portfolio-items:
     portfolio-type:
       - type: "branding"
 
+  - image : "assets/images/portfolio/robot_base.png"
+    title: "robot_base"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
   - image : "assets/images/portfolio/lidar_scan.png"
     title: "lidar_scan"
     url: "#"
     portfolio-type:
       - type: "branding"
-
+ 
+  - image : "assets/images/portfolio/animation.png"
+    title: "animation"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
 
 #-------------------------------
 # Testimonials Section
 
 testimonial-items:
-  - name: "Byeong Kwon, Min"
-    image: "assets/images/testimonial/B.K.M.png"
-    designation : "Professor"
-    content : "아주 훌륭합니다 여러분. 여러분의 노고에 찬사를.....!"
+  - name: "Masayoshi Son"
+    image: "assets/images/testimonial/masaco.png"
+    designation : "CEO of Softbank"
+    content : "한국에 투자하겠습니다...!"
     
-  - name: "Dae Eun, Kim"
-    image: "assets/images/testimonial/D.E.K.png"
-    designation: "Professor"
-    content: "이 프로젝트는 A+입니다."
+  - name: "Jack Ma"
+    image: "assets/images/testimonial/mawin.png"
+    designation: "CEO of Alibaba"
+    content: "Why not invest on this?"
     
-  - name: "Hyung seok, Lee"
-    image: "assets/images/testimonial/H.S.L.png"
-    designation: "Professor"
-    content: "<strong> ! 최고의 프로젝트입니다 ! </strong>"
+  - name: "Warren Buffett"
+    image: "assets/images/testimonial/warren.png"
+    designation: "Investor"
+    content: "My Last Investment! ...."
 
 
 #-------------------------------
 # Client Slider Section
 
 client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/client-logo-7.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/client-logo-8.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: "assets/images/clients-logo/client-logo-9.png"
     url: "#"
 
+  - logo: "assets/images/clients-logo/client-logo-10.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-6.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-7.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-8.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-9.png"
+    url: "#"
+  
+  - logo: "assets/images/clients-logo/client-logo-10.png"
+    url: "#"
+    
 #-------------------------------
 # Contact Section
 
