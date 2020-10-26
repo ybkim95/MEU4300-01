@@ -81,7 +81,7 @@ team:
     image : "assets/images/team/tml.jpg"
     designation : "Project Manager"
     
-  - title : "강신욱"
+  - title : 강신욱"
     image : "assets/images/team/swk.jpg"
     designation : "Graphic Designer"
     
@@ -138,21 +138,21 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Folding,
+    icon: ti-view-list,
+    description: '해당 로봇은 여러 종류의 옷을 분류해 인식하고 인식된 결과에 맞게 옷을 자동으로 folding 해주는 기능을 가지고 있습니다.',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
+    name: SLAM,
+    icon: ti-location-pin,
+    description: 'Simulataneous Localization and Mapping (SLAM)이라고 불리는 기술을 통해 Mapping과 Localization을 동시에 수행하여 정확한 Navigation을 수행합니다.',
+    active: # Add true to select section
   }
 - {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    name: Automation,
+    icon: ti-settings,
+    description: '바쁜 업무 속 로봇이 자동으로 옷을 folding 해주고 Database 상에서 이를 관리하여 적절한 시기에 적절한 위치로 옷을 운반할 수 있습니다.',
     active: # Add true to select section
   }
 
@@ -166,16 +166,13 @@ portfolio-home-items:
   - image : "assets/images/portfolio/airpod-pro.png"
     url: "https://www.naver.com"
     
-  - image : "assets/images/portfolio/item-2.png"
+  - image : "assets/images/portfolio/mapping.png"
     url: "#"
-    
-  - image : "assets/images/portfolio/item-3.png"
+
+  - image : "assets/images/portfolio/local_planner.png"
     url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
+
+  - image : "assets/images/portfolio/lidar_scan.png"
     url: "#"
 
 
@@ -202,49 +199,23 @@ portfolio-items:
      - type: "design"
      - type: "illustration"
       
-  - image : "assets/images/portfolio/item-2.png"
-    title: "gameboy"
+  - image : "assets/images/portfolio/mapping.png"
+    title: "mapping"
     url: "#"
     portfolio-type:
       - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
+
+  - image : "assets/images/portfolio/local_planner.png"
+    title: "path-planning"
     url: "#"
     portfolio-type:
       - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
+
+  - image : "assets/images/portfolio/lidar_scan.png"
+    title: "lidar_scan"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
       - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
 
 
 #-------------------------------
