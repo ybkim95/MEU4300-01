@@ -2,7 +2,7 @@
 layout: about
 title: Our Mission
 author: Beyonsei
-image: assets/images/about/laundroid.png
+image: assets/images/blog/cad_robot.png
 signature: assets/images/about/signature.png
 ---
 

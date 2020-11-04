@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Mobile Folding Robot v1.0.0
+title:  Mobile Folding Robot v1.0.1
 date:   2020-11-03 09:05:55 +0300
 image:  /assets/images/blog/vrep_robot.png
 author: Yu Bin, Kim
